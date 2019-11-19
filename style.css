@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+i{
+    font-size: 1.5rem;
+}
+
+td .fa-check-square{
+    color:rgb(102, 155, 24);
+}
+
+td .fa-exclamation-circle{
+    color:rgb(156, 23, 23);
+}
+
+.table{
+    width:auto;
+    box-shadow: 1px 1px 20px rgb(109, 108, 108);
+}
+
+#first-table{
+    background: linear-gradient(145deg, rgba(232, 87, 237, 0.15) 0%,rgba(109, 137, 69, 0.15) 100%),linear-gradient(75deg, rgb(33, 138, 184),rgb(0, 241, 181));
+}
+    
+#second-table{
+    background: #83a4d4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#third-table{
+    background: #667db6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#form-add{
+    display: inline-block;
+    padding: 20px;
+    box-shadow: 4px 4px 20px rgb(153, 152, 152);
+}
+input[type=checkbox] {
+   width: 1.3rem; 
+   height: 1.3rem; 
+   cursor: pointer;
+}
+
+input[type=checkbox]:checked  {
+  box-shadow: 0 4px 2px -2px #138496; 
+}
