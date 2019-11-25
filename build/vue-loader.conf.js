@@ -8,7 +8,7 @@ const sourceMapEnabled = isProduction
 
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production'
-    ? '/CoffeeTime/'
+    ? '/works/CoffeeTime/'
     : '/',
   loaders: utils.cssLoaders({
     sourceMap: sourceMapEnabled,
